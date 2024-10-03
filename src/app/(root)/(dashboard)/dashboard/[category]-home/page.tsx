@@ -1,13 +1,9 @@
-"use client"
-import { useParams } from 'next/navigation';
-import React from 'react';
+import React from 'react'
 
-const CategoryPage = () => {
-    const { category } = useParams<{ category: string }>();
-
+const ListingCategoryPage = () => {
     return (
-        <div>Category Page: {category}</div>
-    );
-};
+        <div>ListingCategoryPage</div>
+    )
+}
 
-export default CategoryPage;
+export default ListingCategoryPage
