@@ -1,15 +1,13 @@
-import React from 'react'
+"use client"
+import { useParams } from 'next/navigation';
+import React from 'react';
 
-interface IParams {
-    params: {
-        category: string
-    }
-}
+const CategoryPage = () => {
+    const { category } = useParams<{ category: string }>();
 
-const CategoryPage = ({params: {category}}: IParams) => {
     return (
-        <div>CategoryPage {category}</div>
-    )
-}
+        <div>Category Page: {category}</div>
+    );
+};
 
-export default CategoryPage
+export default CategoryPage;

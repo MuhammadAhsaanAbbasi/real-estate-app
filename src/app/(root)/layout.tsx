@@ -1,3 +1,4 @@
+import Header from '@/components/navigation_menu/headers/Header';
 import { Metadata } from 'next';
 import React, { ReactNode } from 'react'
 
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 const Rootlayout = ({ children }: Readonly<{ children: ReactNode }>) => {
     return (
         <main>
+            <Header />
             {children}
         </main>
     )
