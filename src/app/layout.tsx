@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Abbasi Groups",
   description: "Real Estate App by Abbasi Groups",
   icons: {
-      icon: "https://hrk-boutique.s3.ap-south-1.amazonaws.com/Interro.AI.png",
+      icon: "https://myapplication-logos.s3.ap-south-1.amazonaws.com/abbasi-groups.png",
   },
 };
 
